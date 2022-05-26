@@ -63,8 +63,13 @@ class MonitorLogger {
   virtual void DoPublish(MonitorMessage *message) const;
 
   MonitorMessageItem::MessageSource source_;
-  std::unique_ptr<cyber::Node> node_;
-  std::shared_ptr<cyber::Writer<MonitorMessage>> monitor_msg_writer_;
+  /**
+   * @brief error:‘Node’ is not a member of ‘apollo::cyber’
+   * @param cancell node_ and monitor_msg_writer_
+   * @Morven 20220525
+   */
+//  std::unique_ptr<cyber::Node> node_;
+//  std::shared_ptr<cyber::Writer<MonitorMessage>> monitor_msg_writer_;
 
   DECLARE_SINGLETON(MonitorLogger)
 };

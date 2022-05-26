@@ -76,7 +76,7 @@ SOURCES += main.cpp \
     modules/common/math/linear_interpolation_test.cc \
     modules/common/math/linear_quadratic_regulator.cc \
     modules/common/math/math_utils.cc \
-    modules/common/math/math_utils_test.cc \
+#    modules/common/math/math_utils_test.cc \
     modules/common/math/matrix_operations.cc \
     modules/common/math/matrix_operations_test.cc \
     modules/common/math/mpc_osqp.cc \
@@ -92,9 +92,9 @@ SOURCES += main.cpp \
     modules/common/math/vec2d_test.cc \
     modules/common/monitor_log/proto/monitor_log.pb.cc \
     modules/common/monitor_log/monitor_log_buffer.cc \
-    modules/common/monitor_log/monitor_log_buffer_test.cc \
-    modules/common/monitor_log/monitor_logger.cc \
-    modules/common/monitor_log/monitor_logger_test.cc \
+#    modules/common/monitor_log/monitor_log_buffer_test.cc \
+#    modules/common/monitor_log/monitor_logger.cc \
+#    modules/common/monitor_log/monitor_logger_test.cc \
     modules/common/proto/direction.pb.cc \
     modules/common/proto/drive_event.pb.cc \
     modules/common/proto/drive_state.pb.cc \
@@ -399,8 +399,8 @@ HEADERS += \
     modules/common/math/sin_table.h \
     modules/common/math/vec2d.h \
     modules/common/monitor_log/proto/monitor_log.pb.h \
-    modules/common/monitor_log/monitor_log_buffer.h \
-    modules/common/monitor_log/monitor_logger.h \
+#    modules/common/monitor_log/monitor_log_buffer.h \
+#    modules/common/monitor_log/monitor_logger.h \
     modules/common/proto/direction.pb.h \
     modules/common/proto/drive_event.pb.h \
     modules/common/proto/drive_state.pb.h \
